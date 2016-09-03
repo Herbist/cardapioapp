@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget xmlns="http:www.w3.org/ns/widget"
+	xmlns:gap="http://phonegap.com/ns/1.0"
+	id="br.com.rafaelherbst/cenouraapp"
+	version="1.0.0">
+	<name>
+		Cenoura App
+	</name>
+	<description>
+		Menu
+	</description>
+	<author href="Herbist.github.io" 
+		email="rafael7152@hotmail.com" >
+		Rafael Herbst
+	</author>
+	<preference name="orientation" value="portrait" />
+	<preference name="fullscreen" value="true" />
+	<preference name="permissions" value="none" />
+	<preference name="phonegap-version" value="cli-6.3.0" />
+	<icon src="icon.png" />
+	<gap:plataform name="android" />
+	<gap:splash src="splash.png" />
+
+</widget>
