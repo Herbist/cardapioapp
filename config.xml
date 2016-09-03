@@ -1,24 +1,31 @@
-<?xml version="1.0" encoding="utf-8"?>
-<widget xmlns="http:www.w3.org/ns/widget"
-	xmlns:gap="http://phonegap.com/ns/1.0"
-	id="br.com.rafaelherbst/cenouraapp"
-	version="1.0.0">
-	<name>
-		Cenoura App
-	</name>
-	<description>
-		Menu
-	</description>
-	<author href="Herbist.github.io" 
-		email="rafael7152@hotmail.com" >
-		Rafael Herbst
-	</author>
-	<preference name="orientation" value="portrait" />
-	<preference name="fullscreen" value="true" />
-	<preference name="permissions" value="none" />
-	<preference name="phonegap-version" value="cli-6.3.0" />
-	<icon src="icon.png" />
-	<gap:plataform name="android" />
-	<gap:splash src="splash.png" />
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets"
+xmlns:gap="http://phonegap.com/ns/1.0"
+id="br.com.rafaelherbst.cenourapp"
+version="1.0.0">
+
+<name>
+Só de Cenoura
+</name>
+
+<description>
+Menu do restaurante Só de Cenoura.
+</description>
+
+<author href="http://google.com" email="rafael7152@gmail.com">
+Rafael Herbst
+</author>
+
+<preference name="orientation" value="portrait" />
+<preference name="fullscreen" value="true" />
+<preference name="permissions" value="none" />
+
+<preference name="phonegap-version" value="cli-6.3.0" />
+
+<icon src="icon.png" />
+
+<gap:platform name="android" />
+<gap:splash src="splash.png" />
+
 
 </widget>
